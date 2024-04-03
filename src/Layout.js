@@ -26,7 +26,7 @@ const items = [
 
   {
     key: "en_US",
-    danger: true,
+    danger: false,
     label: (
       <Button onClick={() => i18n.changeLanguage("en_US")}>English</Button>
     ),
